@@ -3,7 +3,7 @@
 ## Challenge details
 | Event | Challenge | Category | Points |
 |:------|:----------|:---------|-------:|
-| DEF CON CTF Quals | Internet Kitties | misc | 10 |
+| PicoCTF 2017 | Internet Kitties | misc | 10 |
 
 ### Description
 > I was told there was something at IP shell2017.picoctf.com with port 42354. How do I get there? Do I need a ship for the port?
