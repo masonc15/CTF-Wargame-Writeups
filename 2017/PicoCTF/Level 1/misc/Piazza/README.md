@@ -1,20 +1,19 @@
-# Internet Kitties
+# Piazza
 
 ## Challenge details
 | Event | Challenge | Category | Points |
 |:------|:----------|:---------|-------:|
-| PicoCTF 2017 | Internet Kitties | misc | 10 |
+| PicoCTF 2017 | Piazza | misc | 10 |
 
 ### Description
-> I was told there was something at IP shell2017.picoctf.com with port 42354. How do I get there? Do I need a ship for the port?
+> Have questions about pico? You can ask [here](http://piazza.com/picoctf/spring2017/31337). The access code is 31337.
 
 ## Write-up
 
-This is an intro CTF so these first problems shouldn't be too hard. Looks like I just need to connect to port 42354 on the given address.  At first, I thought an SSH connection was required so I tried `ssh shell2017.picoctf.com:42354`.  No luck.  The hint mentioned using Netcat which I haven't used before.  A quick `man nc` gives us the syntax and entering in the correct command gives us the flag.
+The description gives us a link that brings us to some sort of classroom webpage for PicoCTF seen here:
 
-```
-shadronix@shell-web:~$ nc shell2017.picoctf.com 42354                                              
-Yay! You made it!                                                                                  
-Take a flag!                                                                                       
-74d4fd0abc13a085d6d60489db227dfd 
-```
+![Piazza](https://i.gyazo.com/0f89abb02406b72be4916d89bf43a7bd.png)
+
+We go through the registration steps and arrive at a page with many threads created by the CTF participants.  One of the stickies is named "Welcome" and contains the flag!
+
+![Piazza](https://i.gyazo.com/acb0a4719bded57bc788f1d66e2dacfe.png)
