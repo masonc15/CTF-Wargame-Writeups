@@ -11,8 +11,5 @@
 ## Write-up
 HERE GOES THE ACTUAL WRITE-UP
 
-### Solution
-HERE GOES THE SOLUTION
-
 #### Flag
 `HERE_GOES_THE_FLAG`
