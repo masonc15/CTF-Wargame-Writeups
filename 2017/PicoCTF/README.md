@@ -9,10 +9,14 @@ This year’s competition features a brand new adventure. When your friend disap
 ## Result
 | Place | Points | Rating points |
 |:-----:|-------:|--------------:|
-| PLACE | POINTS | RATING_POINTS |
+| 17923rd | 150 | - |
 
 ## Solved
 | Challenge | Type | Points | Write-up     |
 |:----------|:-----|-------:|:-------------|
-| CHALLENGE | TYPE | POINTS | [link](WRITE_UP_LINK) |
-| CHALLENGE | TYPE | POINTS | - |
+| Internet Kitties | Misc| 10 | [link](Level%201/misc/Internet%20Kitties/README.md) |
+| Piazza | Misc | 10 | [link](Level%201/misc/Piazza/README.md) |
+| Leaf of the Tree | Misc | 20 | [link](Level%201/misc/Leaf%20of%20the%20Tree/README.md) |
+| looooong | Misc | 20 | [link](Level%201/misc/looooong/README.md) |
+| Leaf of the Forest | Misc | 30 | [link](Level%201/misc/Leaf%20of%20the%20Forest/README.md) |
+| WorldChat | Misc | 30 | [link](Level%201/misc/WorldChat/README.md) |
