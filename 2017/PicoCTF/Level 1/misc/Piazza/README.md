@@ -14,6 +14,9 @@ The description gives us a link that brings us to some sort of classroom webpage
 
 ![Piazza](https://i.gyazo.com/0f89abb02406b72be4916d89bf43a7bd.png)
 
-We go through the registration steps and arrive at a page with many threads created by the CTF participants.  One of the stickies is named "Welcome" and contains the flag `flag{ask_and_hop3fully_we_can_help}`!
+We go through the registration steps and arrive at a page with many threads created by the CTF participants.  One of the stickies is named "Welcome" and contains the flag!
 
 ![Piazza](https://i.gyazo.com/acb0a4719bded57bc788f1d66e2dacfe.png)
+
+#### Flag
+`flag{ask_and_hop3fully_we_can_help}`
