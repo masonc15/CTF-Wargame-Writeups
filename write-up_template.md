@@ -1,4 +1,4 @@
-# EVENT_NAME YEAR: challenge_name
+# challenge_name
 
 ## Challenge details
 | Event | Challenge | Category | Points |
