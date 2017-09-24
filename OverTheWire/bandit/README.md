@@ -21,7 +21,9 @@ PW: `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
 ### Level Goal
 The password for the next level is stored in a file called **spaces in this filename** located in the home directory.
 ### Solution
+Filenames with spaces in them need quotes so we enter `cat "spaces in this filename"`
 
+PW: `UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`
 
 ---
 
