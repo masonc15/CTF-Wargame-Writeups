@@ -11,7 +11,9 @@ The password for the next level is stored in a file called readme located in the
 ### Level Goal
 The password for the next level is stored in a file called - located in the home directory.
 ### Solution
+Bash interprets a dash as stdin so we need to enter `cat ./-`
 
+PW: `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
 
 ---
 
