@@ -31,7 +31,9 @@ PW: `UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`
 ### Level Goal
 The password for the next level is stored in a hidden file in the **inhere** directory.
 ### Solution
+We don't see anything in the `inhere` directory so we enter `ls -a`, which shows all hidden files.  This shows us the `.hidden` file which we can read the contents of.
 
+PW: `pIwrPrtPN36QITSp3EQaw936yaFoFgAB`
 
 ---
 
