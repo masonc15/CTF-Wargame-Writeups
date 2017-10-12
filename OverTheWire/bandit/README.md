@@ -41,7 +41,9 @@ PW: `pIwrPrtPN36QITSp3EQaw936yaFoFgAB`
 ### Level Goal
 The password for the next level is stored in the only human-readable file in the **inhere** directory. Tip: if your terminal is messed up, try the “reset” command.
 ### Solution
+There are many files in the `inhere` directory and we don't want to manually enter `cat` for all of them.  We can enter `cat * */*` to display the outputs of all files and see which one is readable.  This gives us the password.
 
+PW: `whWk7jZC0RTdopnAYKh`
 
 ---
 
