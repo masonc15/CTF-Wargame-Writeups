@@ -1,4 +1,4 @@
-# EVENT_NAME YEAR: challenge_name
+# Hash101
 
 ## Challenge details
 | Event | Challenge | Category | Points |
