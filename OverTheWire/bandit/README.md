@@ -1,7 +1,7 @@
 ## 0 -> 1
 ### Level Goal
 
-The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
+The password for the next level is stored in a file called **readme** located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
 ### Solution
 `cat readme` -> `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
 
@@ -9,7 +9,7 @@ The password for the next level is stored in a file called readme located in the
 
 ## 1 -> 2
 ### Level Goal
-The password for the next level is stored in a file called - located in the home directory.
+The password for the next level is stored in a file called **-** located in the home directory.
 ### Solution
 Bash interprets a dash as stdin so we need to enter `cat ./-`
 
@@ -49,7 +49,7 @@ PW: `koReBOKuIDDepwhWk7jZC0RTdopnAYKh`
 
 ## 5 -> 6
 ### Level Goal
-The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+The password for the next level is stored in a file somewhere under the **inhere** directory and has all of the following properties:
 
 - human-readable
 - 1033 bytes in size
