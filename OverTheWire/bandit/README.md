@@ -56,4 +56,7 @@ The password for the next level is stored in a file somewhere under the inhere d
 - not executable
 
 ### Solution
+When we enter the `inhere` directory, we see countless directories and subdirectories.  We can't possibly go through all of these so we need a way to find the right file by given size of 1033 bytes.  We enter `find -size 1033c` and get the following result: `./maybehere07/.file2`  We read this file and get the flag.
+
+PW: `DXjZPULLxYr17uwoI01bNLQbtFemEgo7`
 
