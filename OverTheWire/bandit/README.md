@@ -71,6 +71,9 @@ The password for the next level is stored **somewhere on the server** and has al
 - 33 bytes in size
 
 ### Solution
+All we know is that the password is in a file somewhere on the server.  We do have specific traits about the file though so we go to the root directory and enter `find -user bandit7 -group bandit6 -size 33c`.  This gives us the path `/var/lib/dpkg/info/bandit7.password`.  When we look in that file, we find the password.
+
+PW: `HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs`
 
 ---
 
