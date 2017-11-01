@@ -82,6 +82,12 @@ PW: `HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs`
 The password for the next level is stored in the file **data.txt** next to the word **millionth**
 
 ### Solution
+Let's take a look at the data.txt file and see what we find.  There are countless lines in this file, each with a keyword and password.  This is clearly too much to go through manually so we need to use grep.
+```bash
+$ cat data.txt | grep millionth
+millionth       cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+```
+PW: `cvX2JJa4CFALtqS87jk27qwqGhBM9plV`
 
 ---
 
