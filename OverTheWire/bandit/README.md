@@ -96,6 +96,12 @@ PW: `cvX2JJa4CFALtqS87jk27qwqGhBM9plV`
 The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
 
 ### Solution
+As usual, let's look at data.txt and see what we find.  It's full of complete gibberish so we need to find the line of text that is unique.  The hints told us to look at the `sort` and `uniq` commands.  Using [TLDR](https://tldr.ostera.io), we look up the syntax for these commands.  We must use the `-u` parameter for `uniq` to display only unique lines.  We enter the following:
+```bash
+$ sort data.txt | uniq -u
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+```
+PW: `UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR`
 
 ---
 
