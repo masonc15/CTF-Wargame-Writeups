@@ -110,7 +110,15 @@ PW: `UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR`
 The password for the next level is stored in the file **data.txt** in one of the few human-readable strings, beginning with several ‘=’ characters.
 
 ### Solution
-
+Since data.txt is un-readable, `cat data.txt` does not work.  Even using grep and cat produces no output.  We then try `strings data.txt` and get a readable output so grep should work.
+```bash
+$ strings data.txt | grep ==
+========== theOkM
+========== password
+========== is
+)========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+```
+PW: `truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk`
 ---
 
 ## 10 -> 11
