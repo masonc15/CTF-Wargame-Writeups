@@ -119,6 +119,7 @@ $ strings data.txt | grep ==
 )========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 ```
 PW: `truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk`
+
 ---
 
 ## 10 -> 11
