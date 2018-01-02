@@ -127,7 +127,12 @@ PW: `truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk`
 The password for the next level is stored in the file **data.txt**, which contains base64 encoded data
 
 ### Solution
-
+This one was fairly easy.  After looking at the contents of `data.txt`, it is clearly base64 encoded as we were told.  We can confirm this by seeing the double equals sign at the end of the code.  Using the `coreutils` package, we can simply decode this in bash.
+```bash
+$ cat data.txt | base64 --decode
+The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+```
+PW: `IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR`
 ---
 
 ## 11 -> 12
