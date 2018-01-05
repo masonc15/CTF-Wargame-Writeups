@@ -133,6 +133,7 @@ $ cat data.txt | base64 --decode
 The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 ```
 PW: `IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR`
+
 ---
 
 ## 11 -> 12
@@ -141,9 +142,11 @@ The password for the next level is stored in the file **data.txt**, where all lo
 
 ### Solution
 Another easy cryptography problem.  We look in `data.txt` and find our cipher text, which we know has been shifted by 13 positions.  This is a Caesar cipher which we can easily decode [online](http://md5decrypt.net/en/Caesar/).  This gives us the following plaintext:
+
 `the password is teydrgcrfcxugdwuexkfckeuu`.
 
 PW: `teydrgcrfcxugdwuexkfckeuu`
+
 ---
 
 ## 12 -> 13
