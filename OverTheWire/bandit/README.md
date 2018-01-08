@@ -143,9 +143,9 @@ The password for the next level is stored in the file **data.txt**, where all lo
 ### Solution
 Another easy cryptography problem.  We look in `data.txt` and find our cipher text, which we know has been shifted by 13 positions.  This is a Caesar cipher which we can easily decode [online](http://md5decrypt.net/en/Caesar/).  This gives us the following plaintext:
 
-`the password is teydrgcrfcxugdwuexkfckeuu`.
+`the password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu`.
 
-PW: `teydrgcrfcxugdwuexkfckeuu`
+PW: `5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu`
 
 ---
 
@@ -154,7 +154,9 @@ PW: `teydrgcrfcxugdwuexkfckeuu`
 The password for the next level is stored in the file **data.txt**, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 
 ### Solution
+This problem was more tedious than anything else.  I had to use multiple decompression techniques including bzip2, gzip, and tar.  After decompressing many times, I finally got the password in a text file.
 
+PW: `8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL`
 ---
 
 ## 13 -> 14
