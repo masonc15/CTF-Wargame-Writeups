@@ -157,6 +157,7 @@ The password for the next level is stored in the file **data.txt**, which is a h
 This problem was more tedious than anything else.  I had to use multiple decompression techniques including bzip2, gzip, and tar.  After decompressing many times, I finally got the password in a text file.
 
 PW: `8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL`
+
 ---
 
 ## 13 -> 14
@@ -164,4 +165,15 @@ PW: `8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL`
 The password for the next level is stored in **/etc/bandit_pass/bandit14 and can only be read by user bandit14.** For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. **Note: localhost** is a hostname that refers to the machine you are working on
 
 ### Solution
+This level requires ssh.  We are provided a private keyfile and to use this to log in instead of a password, we need to use the -i option with ssh.
 
+```bash
+$ ssh -i sshkey.private bandit14@localhost
+```
+We're in.  We can then navigate to the given folder and find the password.
+```bash
+$ cat ../../etc/bandit_pass/bandit14
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+```
+
+PW: `4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e`
