@@ -177,3 +177,53 @@ $ cat ../../etc/bandit_pass/bandit14
 ```
 
 PW: `4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e`
+
+---
+
+## 14 -> 15
+### Level Goal
+The password for the next level can be retrieved by submitting the password of the current level to **port 30000 on localhost**.
+
+### Solution
+
+PW:
+
+---
+
+## 15 -> 16
+### Level Goal
+The password for the next level can be retrieved by submitting the password of the current level to **port 30001 on localhost** using SSL encryption.
+
+### Solution
+
+PW: 
+
+---
+
+## 16 -> 17
+### Level Goal
+The credentials for the next level can be retrieved by submitting the password of the current level to **a port on localhost in the range 31000 to 32000**. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
+
+### Solution
+
+PW: 
+
+---
+
+## 17 -> 18
+### Level Goal
+There are 2 files in the homedirectory: **passwords.old and passwords.new**. The password for the next level is in **passwords.new** and is the only line that has been changed between **passwords.old and passwords.new**.
+
+### Solution
+
+PW: 
+
+---
+
+## 18 -> 19
+### Level Goal
+The password for the next level is stored in a file **readme** in the homedirectory. Unfortunately, someone has modified **.bashrc** to log you out when you log in with SSH.
+
+### Solution
+
+PW: 
