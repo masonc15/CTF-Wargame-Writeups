@@ -185,8 +185,15 @@ PW: `4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e`
 The password for the next level can be retrieved by submitting the password of the current level to **port 30000 on localhost**.
 
 ### Solution
+This level uses nc (or netcat).  After establishing a connection to localhost on the given port, we can simply enter the previous level's password and receive the password for this level.
+```bash
+$ nc localhost 30000
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+Correct!
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+```
 
-PW:
+PW: `BfMYroe26WYalil77FoDi9qh59eK5xNr`
 
 ---
 
