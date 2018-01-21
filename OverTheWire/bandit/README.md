@@ -202,8 +202,9 @@ PW: `BfMYroe26WYalil77FoDi9qh59eK5xNr`
 The password for the next level can be retrieved by submitting the password of the current level to **port 30001 on localhost** using SSL encryption.
 
 ### Solution
+Another relatively simple network connection.  We need to use openSSL with s_client to connect to the given port.  We also need to add the -ign_eof option to allow for input.  We enter `openssl s_client -connect localhost:30001 -ign_eof` and establish connection.  After that, we enter the previous level's password and receive our password.
 
-PW: 
+PW: `cluFn7wTiGryunymYOu4RcffSxQluehd`
 
 ---
 
