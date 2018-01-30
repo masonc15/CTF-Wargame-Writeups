@@ -268,8 +268,9 @@ vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 There are 2 files in the homedirectory: **passwords.old and passwords.new**. The password for the next level is in **passwords.new** and is the only line that has been changed between **passwords.old and passwords.new**.
 
 ### Solution
+The hardest part about this level was realizing that I had to access the shell from the previous level and then access this level with the RSA key we accessed before.  To do this, we go to the `tmp` folder and create sshkey.private in vim.  We also have to enable permissions for this file using `chmod 600 sshkey.private`.  We then connect to the server using `ssh -i sshkey.private bandit17@localhost`.  We're in.  After this, we have two slightly different files which we can analyze using diff.  After we type `diff passwords.old passwords.new`, we receive the password for this level.
 
-PW: 
+PW: `kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd` 
 
 ---
 
