@@ -279,5 +279,6 @@ PW: `kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd`
 The password for the next level is stored in a file **readme** in the homedirectory. Unfortunately, someone has modified **.bashrc** to log you out when you log in with SSH.
 
 ### Solution
+This one was interesting.  As soon as we attempt to log in with SSH normally, we are instantly kicked out of the server.  We clearly need to modify the ssh command in some way.  After a little googling, I found out that we can use a parameter to ignore the .bashrc.  After typing `ssh bandit18@bandit.labs.overthewire.org -p 2220 "bash --noprofile --norc"`, we enter the password and can easily just read the contents of the readme file.
 
-PW: 
+PW: `IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x`
