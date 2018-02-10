@@ -282,3 +282,101 @@ The password for the next level is stored in a file **readme** in the homedirect
 This one was interesting.  As soon as we attempt to log in with SSH normally, we are instantly kicked out of the server.  We clearly need to modify the ssh command in some way.  After a little googling, I found out that we can use a parameter to ignore the .bashrc.  After typing `ssh bandit18@bandit.labs.overthewire.org -p 2220 "bash --noprofile --norc"`, we enter the password and can easily just read the contents of the readme file.
 
 PW: `IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x`
+
+---
+
+## 19 -> 20
+### Level Goal
+To gain access to the next level, you should use the setuid binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place (/etc/bandit_pass), after you have used the setuid binary.
+
+### Solution
+
+
+PW:
+
+---
+
+## 20 -> 21
+### Level Goal
+There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).
+
+*NOTE*: Changes to the infrastructure made this level more difficult. You will need to figure out a way to launch multiple commands in the same Docker instance.
+
+*NOTE 2*: Try connecting to your own network daemon to see if it works as you think
+
+### Solution
+
+
+PW:
+
+---
+
+## 21 -> 22
+### Level Goal
+A program is running automatically at regular intervals from *cron*, the time-based job scheduler. Look in */etc/cron.d/* for the configuration and see what command is being executed.
+
+### Solution
+
+
+PW:
+
+---
+
+## 22 -> 23
+### Level Goal
+A program is running automatically at regular intervals from *cron*, the time-based job scheduler. Look in */etc/cron.d/* for the configuration and see what command is being executed.
+
+*NOTE*: Looking at shell scripts written by other people is a very useful skill. The script for this level is intentionally made easy to read. If you are having problems understanding what it does, try executing it to see the debug information it prints.
+
+### Solution
+
+
+PW:
+
+---
+
+## 23 -> 24
+### Level Goal
+A program is running automatically at regular intervals from *cron*, the time-based job scheduler. Look in */etc/cron.d/* for the configuration and see what command is being executed.
+
+*NOTE*: This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself when you beat this level!
+
+*NOTE 2*: Keep in mind that your shell script is removed once executed, so you may want to keep a copy around…
+
+### Solution
+
+
+PW:
+
+---
+
+## 24 -> 25
+### Level Goal
+A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing.
+
+### Solution
+
+
+PW:
+
+---
+
+## 25 -> 26
+### Level Goal
+Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not */bin/bash*, but something else. Find out what it is, how it works and how to break out of it.
+
+### Solution
+
+
+PW:
+
+---
+
+## 26 -> 27
+### Level Goal
+*At this moment, level 27 does not exist yet.*
+
+### Solution
+
+
+PW: 
