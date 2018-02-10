@@ -300,9 +300,9 @@ PW:
 ### Level Goal
 There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).
 
-*NOTE*: Changes to the infrastructure made this level more difficult. You will need to figure out a way to launch multiple commands in the same Docker instance.
+**NOTE**: Changes to the infrastructure made this level more difficult. You will need to figure out a way to launch multiple commands in the same Docker instance.
 
-*NOTE 2*: Try connecting to your own network daemon to see if it works as you think
+**NOTE 2**: Try connecting to your own network daemon to see if it works as you think
 
 ### Solution
 
@@ -313,7 +313,7 @@ PW:
 
 ## 21 -> 22
 ### Level Goal
-A program is running automatically at regular intervals from *cron*, the time-based job scheduler. Look in */etc/cron.d/* for the configuration and see what command is being executed.
+A program is running automatically at regular intervals from **cron**, the time-based job scheduler. Look in **/etc/cron.d/** for the configuration and see what command is being executed.
 
 ### Solution
 
@@ -324,9 +324,9 @@ PW:
 
 ## 22 -> 23
 ### Level Goal
-A program is running automatically at regular intervals from *cron*, the time-based job scheduler. Look in */etc/cron.d/* for the configuration and see what command is being executed.
+A program is running automatically at regular intervals from **cron**, the time-based job scheduler. Look in **/etc/cron.d/** for the configuration and see what command is being executed.
 
-*NOTE*: Looking at shell scripts written by other people is a very useful skill. The script for this level is intentionally made easy to read. If you are having problems understanding what it does, try executing it to see the debug information it prints.
+**NOTE**: Looking at shell scripts written by other people is a very useful skill. The script for this level is intentionally made easy to read. If you are having problems understanding what it does, try executing it to see the debug information it prints.
 
 ### Solution
 
@@ -337,11 +337,11 @@ PW:
 
 ## 23 -> 24
 ### Level Goal
-A program is running automatically at regular intervals from *cron*, the time-based job scheduler. Look in */etc/cron.d/* for the configuration and see what command is being executed.
+A program is running automatically at regular intervals from **cron**, the time-based job scheduler. Look in **/etc/cron.d/** for the configuration and see what command is being executed.
 
-*NOTE*: This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself when you beat this level!
+**NOTE**: This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself when you beat this level!
 
-*NOTE 2*: Keep in mind that your shell script is removed once executed, so you may want to keep a copy around…
+**NOTE 2**: Keep in mind that your shell script is removed once executed, so you may want to keep a copy around…
 
 ### Solution
 
@@ -363,7 +363,7 @@ PW:
 
 ## 25 -> 26
 ### Level Goal
-Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not */bin/bash*, but something else. Find out what it is, how it works and how to break out of it.
+Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not **/bin/bash**, but something else. Find out what it is, how it works and how to break out of it.
 
 ### Solution
 
@@ -374,7 +374,7 @@ PW:
 
 ## 26 -> 27
 ### Level Goal
-*At this moment, level 27 does not exist yet.*
+**At this moment, level 27 does not exist yet.**
 
 ### Solution
 
