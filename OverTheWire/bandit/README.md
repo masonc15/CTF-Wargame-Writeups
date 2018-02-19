@@ -294,6 +294,7 @@ This level is a bit simpler than previous ones.  I was tricked at first because 
 ```
 $ ./bandit20-do cat /etc/bandit_pass/bandit20
 GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+```
 
 PW: `GbKksEFF4yrVs6il55v6gwY5aVje5f0j`
 
