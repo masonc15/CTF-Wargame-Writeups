@@ -290,9 +290,12 @@ PW: `IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x`
 To gain access to the next level, you should use the setuid binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place (/etc/bandit_pass), after you have used the setuid binary.
 
 ### Solution
+This level is a bit simpler than previous ones.  I was tricked at first because I thought I had to type in the name of the user I wanted to be as a parameter when I actually needed to type in the command I wanted to execute.
+```
+$ ./bandit20-do cat /etc/bandit_pass/bandit20
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 
-
-PW:
+PW: `GbKksEFF4yrVs6il55v6gwY5aVje5f0j`
 
 ---
 
