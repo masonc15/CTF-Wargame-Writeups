@@ -309,9 +309,15 @@ There is a setuid binary in the homedirectory that does the following: it makes 
 **NOTE 2**: Try connecting to your own network daemon to see if it works as you think
 
 ### Solution
+This level was probably the most in-depth one I've done so far.  It required me to [learn tmux](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) and a [little bit of ncat](https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf).  First, I had no idea how to create a network daemon.  With a little research, I found out that we needed to use netcat to listen on a port of our choosing and send the password for level 20 there.  Doing this occupies the terminal session, which is why we need `tmux` to create another session.  In our tmux-created session, we enter `nc -l -p 3123`, using the random port 3123.  We then enter the password for level 20 into this network connection.  We then go back into the original session:
+```
+$ ./suconnect 3123
+Read: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+Password matches, sending next password
+```
+After this, we go back to our tmux session and see that the password for the next level has outputted to the netcat connection.
 
-
-PW:
+PW: `gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr`
 
 ---
 
